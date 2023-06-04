@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.row{
+  background-color: #7e0b0b;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+h3, label{
+  color: #fff;
+  text-align: center;
+  
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  color: #fff;
+}
+.create{
+  text-align: start;
+  margin: 20px;
+  
+}
+.create a{
+  color: #fff;
+}
+img{
+  border-top-left-radius: 30px;
+}
+
+.first img{
+  margin-left: 30%;
+  margin-top: 20px;
+  border-radius: 0;
+}
+
+form .btn{
+  background-color: #E01B22;
+  border-color: #E01B22;
+  margin-left: 30%;
+}
+
+form .btn:hover{
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+  transition: .5s;
+}
+
+@media (max-width: 800px) {
+  .first img{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-135%);
+  }
+  form .btn{
+    margin-left: 40%;
+  }
+  .img{
+    width: 100%;
+  }
+  .create{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+form h2{
+  text-align: center;
+}
